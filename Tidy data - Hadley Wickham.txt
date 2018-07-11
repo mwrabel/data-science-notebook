@@ -1,0 +1,21 @@
+Tidy Data - H.Wickham
+https://www.jstatsoft.org/article/view/v059i10/
+
+Tidy data:
+Every variable in different column
+Every observation in new row
+Every type of observational unit forms table 
+
+Messy data:
+Every other type of data. You may need messy data sometimes.
+
+However, in general tidy data enables a painless transition to:
+Manipulation
+Visualisation
+Modeling
+
+Example of tidy data:
+id artist 		track 					time
+1  2 Pac 		Baby Don't Cry 			4:22
+2  2Ge+her 		The Hardest Part Of ... 3:15
+3  3 Doors Down Kryptonite 				3:53

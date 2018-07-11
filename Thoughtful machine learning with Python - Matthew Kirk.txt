@@ -1,0 +1,46 @@
+Thoughtful machine learning with Python - Matthew Kirk 
+
+Chapter 1: 
+Produce SOLID code: 
+Single Responsibility Principle - one piece of code (or an object) plays one role only
+Open / Closed Principle - objects open to be expanded, closed to modifying
+Liskov Substitution Principle - every subobject can be separated from object (without side effects)
+Interface Segregation Principle - different interfaces for different kinds of users 
+Dependency Inversion Principle - lack of dead paths in code, layers of software consequently built
+
+TDD
+Testing - Driven Development
+-checklists
+-trials & tests
+-performance monitoring
+
+Refactoring
+-cure for technological debt
+-often by replacing what's under the hood
+-integrating, simplifying 
+
+Technological debt:
+-The more tech debt, the higher probability that we chose writing soft from scratch rather than modifying existing solution
+
+Chapter 3:
+KNN prefers distance based problems (such as infering flat's price from geospatial data)
+Different types of distance: euclidian, geometric, cosine similarity, <Manhattan distance, Levenshtein distance, Mahalanobis distance, Jaccard distance
+
+Curse of dimensionality:
+The more dimensions, the harder it is to calculate distance that makes sense
+Okham's Razor - simples solution often can be the best one
+
+kNN - how to determine k?
+- guess - if we know that we should take e.g. 12 closest neighbours, then go on
+- use coprime class & k combinations - lack of common denominator other than one (to eliminate possibility of a tie)
+- use k = n(classes) + 1 - (to eliminate possibility of a tie)
+- do not use k that is high (k=number of obs do not make sense)
+- statistical method
+
+how to write good code?
+build CLASSES
+task flow in MAIN function
+really, use classes
+build from classes, reuse them
+configure helpful errors
+take different outcomes into consideration 

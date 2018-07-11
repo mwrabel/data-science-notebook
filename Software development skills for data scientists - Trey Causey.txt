@@ -1,0 +1,27 @@
+Software development skills for data scientists - Trey Causey
+http://treycausey.com/software_dev_skills.html
+
+Data Scientist (DS) don't get same training as Software Developers <- cause for alarm
+DSs don't do: checking / testing / code review (usually)
+SDs take those skills for granted
+"many new data scientists don't know how to effectively collaborate"
+
+DRY - don't repeat yourself. Write functions instead and reuse code
+"rule of thumb: if you find yourself writing the same line of code with only minor changes each time, think about how you can turn that code into a function that takes the changes as parameters"
+---> refactoring
+
+Good comments explain WHAT you are doing and WHY 
+update your comments while you update your code!
+
+Version control / source / revision control
+git / subversion / mercurial
+There are only three certainties in your life as a data scientist: death, taxes, and an inevitable git clusterfuck. In that case: git reset --hard 
+
+Testing
+unit test - most basic type of test
+write code that checks your code
+possbile bugs: not enough data, missing columns, memory overload, network barfed
+WHY? you may even not be awake when your code runs
+automate testing, create logfiles
+need logging to be able to debug & recreate bug conditions
+Disk space is cheap
