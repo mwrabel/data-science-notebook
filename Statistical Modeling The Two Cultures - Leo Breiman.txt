@@ -1,0 +1,43 @@
+Leo Breiman: Statistical Modeling: The Two Cultures
+
+http://itp.wceruw.org/documents/ModelingCulturePresentation.pdf
+based on Christoph Molnar's presentation
+
+1. Statistics: Data Modeling Culture
+  - revealing associations (better understand data)
+  - predicting
+  - design experiments, visualise data, explaining y...
+2. Machine Learning: Algorithmic Modeling Culture
+  - develop algorithm as close to real-world data generation process as possible
+  - prediction
+  - minimizing loss function
+
+
+Drawbacks:
+1. Data Modeling Culture
+  - assumptions often violated
+  - often no model evaluation
+  - conclusions on model, not nature
+  - fail in areas like speech or image recognition
+
+2. Algorithmic Modeling Culture
+  - do not explain anything
+  - overfitting -> TRAINING vs TESTING vs VALIDATING
+  - higher the dimensionality = more difficult signal vs. noise separation -> FEATURE SELECTION
+  - 
+
+
+Rashomon effect: (Often) Many different models describe a situation equally accurate.
+Rashomon is a Japanese movie in which four witnesses tell different versions of a crime. All versions account for the facts but they contradict each other.
+Rashomon effect can be exploited by aggregating over many models
+
+Trade-off between interpretability (Data Modeling Culture) and predictive accuracy (Algorithmic Modeling Culture)
+
+Data Modeling Culture: model evaluated on training data
+Algorithmic Modeling Culture: model evaluated on testing data / CV
+
+
+Data analysts should:
+→ Use predictive accuracy to evaluate models
+→ Seek the best model
+→ Add Machine Learning to their toolbox

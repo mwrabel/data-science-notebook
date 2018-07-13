@@ -44,3 +44,9 @@ really, use classes
 build from classes, reuse them
 configure helpful errors
 take different outcomes into consideration 
+
+Why Naive Bayes is naive?
+Because it does not care about interactions between variables
+the more features, the less sense it makes, yet still it's a good benchmark
+sometimes probability equals zero (for example when seeing feature not seen before), then use Pseudocount (basically, add 1 to denominators while calculating probs)
+

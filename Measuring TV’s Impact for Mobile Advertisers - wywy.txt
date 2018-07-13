@@ -1,0 +1,24 @@
+Measuring TV’s Impact for Mobile Advertisers - wywy
+http://wywy.com/wp-content/uploads/2015/10/Whitepaper-SM-wywy.pdf
+
+Viewing data + Behavioral data ->
+BIG DATA / MODEL
+Estimation + Projection + Prediction + Optimization
+
+Measure customer acquisition
+
+Challenge: TV Brand Advertisers expect TV Ad to work during next purchase cycle for the product (in case of toothpaste it may be next month, whereas in case of sportscar it could be 30 years)
+Challenge: App Marketers expect TV Ad to work immediately, to propell in-app purchases/app downloads. E-commerce business: counting on impulsive purchases
+Challenge: planned airing time differs from actual, TV not a real-time media in terms of reporting
+
+not one baseline, but baseline calculated directly prior to ad airing
+
+Model should calculate:
+individual attribution window per TV ad airing
+An individual baseline per TV ad airing
+The correct attribution when TV airings overlap
+
+How to optimise TV Ad ROI?
+- optimise continuously
+- use test campaigns to measure impact of targeted/non-targeted audiences (prior to scaling campaign up)
+- test different TV creatives
